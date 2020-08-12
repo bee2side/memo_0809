@@ -14,6 +14,7 @@
 		A33B879724E00F25009AD1F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33B879524E00F25009AD1F9 /* LaunchScreen.storyboard */; };
 		A33B879F24E01079009AD1F9 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B879E24E01078009AD1F9 /* MemoListTableViewController.swift */; };
 		A33B87A224E0113C009AD1F9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B87A124E0113C009AD1F9 /* Model.swift */; };
+		A3B4097324E41AAA002735A1 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4097224E41AAA002735A1 /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A33B879824E00F25009AD1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A33B879E24E01078009AD1F9 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		A33B87A124E0113C009AD1F9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A3B4097224E41AAA002735A1 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				A33B879524E00F25009AD1F9 /* LaunchScreen.storyboard */,
 				A33B879824E00F25009AD1F9 /* Info.plist */,
 				A33B879E24E01078009AD1F9 /* MemoListTableViewController.swift */,
+				A3B4097224E41AAA002735A1 /* ComposeViewController.swift */,
 			);
 			path = memo_0809;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B4097324E41AAA002735A1 /* ComposeViewController.swift in Sources */,
 				A33B87A224E0113C009AD1F9 /* Model.swift in Sources */,
 				A33B878B24E00F24009AD1F9 /* AppDelegate.swift in Sources */,
 				A33B878D24E00F24009AD1F9 /* SceneDelegate.swift in Sources */,
