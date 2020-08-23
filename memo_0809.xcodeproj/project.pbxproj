@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4067585F24E4B33B00A3A16F /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4067585E24E4B33B00A3A16F /* UIViewController+Alert.swift */; };
+		40C601A624F3311700FBB4BC /* memo_0809.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40C601A424F3311700FBB4BC /* memo_0809.xcdatamodeld */; };
+		40C601A924F3325100FBB4BC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C601A824F3325100FBB4BC /* DataManager.swift */; };
 		40DBC2CD24EDEFB400EDFBBF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DBC2CC24EDEFB400EDFBBF /* DetailViewController.swift */; };
 		A33B878B24E00F24009AD1F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B878A24E00F24009AD1F9 /* AppDelegate.swift */; };
 		A33B878D24E00F24009AD1F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B878C24E00F24009AD1F9 /* SceneDelegate.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		4067585E24E4B33B00A3A16F /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		40C601A524F3311700FBB4BC /* memo_0809.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = memo_0809.xcdatamodel; sourceTree = "<group>"; };
+		40C601A824F3325100FBB4BC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		40DBC2CC24EDEFB400EDFBBF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A33B878724E00F24009AD1F9 /* memo_0809.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memo_0809.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33B878A24E00F24009AD1F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40C601A724F3323C00FBB4BC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				40C601A824F3325100FBB4BC /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		A33B877E24E00F24009AD1F9 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +76,7 @@
 		A33B878924E00F24009AD1F9 /* memo_0809 */ = {
 			isa = PBXGroup;
 			children = (
+				40C601A724F3323C00FBB4BC /* Data */,
 				A33B87A024E01112009AD1F9 /* Model */,
 				A33B878A24E00F24009AD1F9 /* AppDelegate.swift */,
 				A33B878C24E00F24009AD1F9 /* SceneDelegate.swift */,
@@ -75,6 +88,7 @@
 				A3B4097224E41AAA002735A1 /* ComposeViewController.swift */,
 				4067585E24E4B33B00A3A16F /* UIViewController+Alert.swift */,
 				40DBC2CC24EDEFB400EDFBBF /* DetailViewController.swift */,
+				40C601A424F3311700FBB4BC /* memo_0809.xcdatamodeld */,
 			);
 			path = memo_0809;
 			sourceTree = "<group>";
@@ -162,8 +176,10 @@
 				A33B87A224E0113C009AD1F9 /* Model.swift in Sources */,
 				A33B878B24E00F24009AD1F9 /* AppDelegate.swift in Sources */,
 				4067585F24E4B33B00A3A16F /* UIViewController+Alert.swift in Sources */,
+				40C601A624F3311700FBB4BC /* memo_0809.xcdatamodeld in Sources */,
 				A33B878D24E00F24009AD1F9 /* SceneDelegate.swift in Sources */,
 				A33B879F24E01079009AD1F9 /* MemoListTableViewController.swift in Sources */,
+				40C601A924F3325100FBB4BC /* DataManager.swift in Sources */,
 				40DBC2CD24EDEFB400EDFBBF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +378,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40C601A424F3311700FBB4BC /* memo_0809.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40C601A524F3311700FBB4BC /* memo_0809.xcdatamodel */,
+			);
+			currentVersion = 40C601A524F3311700FBB4BC /* memo_0809.xcdatamodel */;
+			path = memo_0809.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A33B877F24E00F24009AD1F9 /* Project object */;
 }
