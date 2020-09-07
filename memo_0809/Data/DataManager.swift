@@ -39,6 +39,7 @@ class DataManager {
         }
     }
     
+    // add newMemo
     func addNewMemo (_ memo: String) {
         let newMemo = Memo(context: mainContenxt)
         newMemo.content = memo
