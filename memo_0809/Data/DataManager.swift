@@ -10,29 +10,33 @@ import Foundation
 import CoreData
 
 class DataManager {
+    // Singleton
     static let shared = DataManager()
     private init() {
-        //Singleton
     }
     
+    // Use Context
     var mainContenxt: NSManagedObjectContext {
         return persistentContainer.viewContext
     }
     
+    // memoList init
     var memoList = [Memo]()
     
     func fetchMemo() {
+        // make fetch request
         let request: NSFetchRequest<Memo> = Memo.fetchRequest()
         
+        // sort by recent
         let sortByDateDesc = NSSortDescriptor(key: "insertDate", ascending: false)
         request.sortDescriptors = [sortByDateDesc]
         
+        // throw class so do & catch
         do {
             memoList = try mainContenxt.fetch(request)
         } catch {
             print(error)
         }
-        
     }
     
     func addNewMemo (_ memo: String) {
@@ -44,7 +48,7 @@ class DataManager {
         saveContext()
     }
     
-    
+    // MARK: - App Delegate Code
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
